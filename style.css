@@ -1,0 +1,65 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+        /* Basic CSS for layout - not comprehensive */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f6f6;
+        }
+        #content {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #a7d7f9;
+            padding: 20px 40px;
+        }
+        h1, h2, h3 {
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 5px;
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        #infobox {
+            float: right;
+            width: 280px;
+            border: 1px solid #a2a9b1;
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-left: 20px;
+            font-size: 0.9em;
+        }
+        #toc {
+            border: 1px solid #a2a9b1;
+            background-color: #f9f9f9;
+            padding: 10px;
+            display: table; /* To make it wrap content */
+            margin-bottom: 20px;
+        }
+        #toc ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .reference {
+            font-size: 0.8em;
+            vertical-align: super;
+        }
+        h1,h2,h3,p,th,td{text-align: justify;}
+        table {
+              border-collapse: collapse;
+              width: 100%;
+              border: 1px solid #000;
+}
+td, th {
+      border: 1px solid #000;
+      text-align: left;
+      padding: 8px;
+}
